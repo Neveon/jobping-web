@@ -8,8 +8,8 @@ const STEPS = [
   },
   {
     n: "2",
-    title: "We check Indeed nightly",
-    body: "Fresh Austin-area software openings, every morning.",
+    title: "Fresh Austin postings daily",
+    body: "Only roles posted in the last 24 hours — each morning's digest is brand new.",
   },
   {
     n: "3",
