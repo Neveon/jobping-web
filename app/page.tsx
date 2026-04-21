@@ -3,18 +3,18 @@ import SignupForm from "@/components/SignupForm";
 const STEPS = [
   {
     n: "1",
-    title: "Drop your resume",
-    body: "Upload a PDF once. We keep it only to match you against jobs.",
+    title: "Drop your resume (once)",
+    body: "PDF upload. We use it to match jobs — nothing else.",
   },
   {
     n: "2",
-    title: "We scan every morning",
-    body: "Fresh roles from top Austin companies — ranked by Levels.fyi compensation.",
+    title: "We check Indeed nightly",
+    body: "Fresh Austin-area software openings, every morning.",
   },
   {
     n: "3",
-    title: "Five picks at 9am",
-    body: "Claude picks your 5 best fits and writes a one-line reason for each.",
+    title: "Five picks at 9am Central",
+    body: "Claude reads your resume and picks the 5 best fits — one line of why for each.",
   },
 ];
 
@@ -27,7 +27,7 @@ export default function Home() {
             JobPing
           </h1>
           <p className="text-lg text-neutral-400">
-            Daily job matches, delivered by email — picked by Claude, not keywords.
+            Five jobs in your inbox every morning. Picked by Claude, not a keyword filter.
           </p>
         </header>
 
@@ -47,8 +47,27 @@ export default function Home() {
 
         <SignupForm />
 
-        <footer className="text-center text-xs text-neutral-600">
-          Austin, TX + remote roles. Free while in beta.
+        <footer className="flex flex-col items-center gap-2 text-xs text-neutral-600">
+          <div>Austin, TX + remote · Free while in beta</div>
+          <div className="flex gap-3">
+            <a
+              href="https://github.com/Neveon/jobping-web"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-neutral-400"
+            >
+              Web source
+            </a>
+            <span>·</span>
+            <a
+              href="https://github.com/Neveon/jobping-api"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-neutral-400"
+            >
+              API source
+            </a>
+          </div>
         </footer>
       </div>
     </main>
