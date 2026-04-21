@@ -2,7 +2,7 @@
 
 Next.js 14 landing page for **JobPing** — daily LLM-curated job digest emails.
 
-**Live**: [jobping-web.vercel.app](https://jobping-web.vercel.app) · Backend repo: [`jobping-api`](https://github.com/Neveon/jobping-api)
+**Live**: [jobping.dev](https://jobping.dev) · Backend repo: [`jobping-api`](https://github.com/Neveon/jobping-api)
 
 ## What's here
 
